@@ -1,7 +1,4 @@
-x = 15
-price = 9.99
-discount = 0.2
+from random import randint
 
-result = price * (1 - discount)
-
-print ("The quantity is ", x ," and the price is " , price, " so the total is ",result)
+numero_aleatorio = randint(1, 10)
+print(numero_aleatorio)
